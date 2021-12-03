@@ -1,0 +1,840 @@
+
+/***********************************************************/
+/***********************************************************/
+/*                      767 - 1023                         */
+/***********************************************************/
+/***********************************************************/
+/* 
+@media screen 
+and (min-width: 768px)
+and (max-width: 1023px)
+and (orientation:portrait)
+{
+  
+  html{
+    font-family: Roboto;
+    overflow-x: hidden;
+    height: 100%;
+  }
+
+  .hideInMob{
+    display: none!important;
+  }
+
+  .btnRev {
+    position: absolute;
+    width: 57%;
+  }
+
+
+
+
+
+  #topo{
+    position: absolute;
+    width: 100%;
+  }
+
+
+  #topo .menu {
+    height: 100vh;
+    width: 50%;
+    background: #181818;
+    display: none;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    transform: translateX(100%);
+    position: fixed;
+    right: 0;
+    z-index: 2;
+    transition: 1s;
+    overflow: hidden;
+    padding-top: 125px;
+    padding-left: 11px;
+    padding-right: 40px;
+  }
+
+  .menu .menuCor-b {
+    position: relative;
+    z-index: 3;
+    margin: 12px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+  .menu h2 {
+    margin: 12px;
+    font-size: 24px;
+    font-weight: 200;
+    position: relative;
+    z-index: 3;
+  }
+  
+  .menu a:link,
+  .menu a:visited {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .line {
+    height: 3px;
+    width: 30px;
+    top: 0;
+    background-color: #000000;
+    transition: 1s;
+    position: absolute;
+  }
+  
+  .two {
+    top: 10px;
+  }
+  
+  .three {
+    top: 20px;
+  }
+  
+  .hamburger {
+    margin: 11px;
+    position: fixed;
+    left: 81%;
+    top: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    height: 30px;
+    width: 40px;
+    z-index: 1002;
+  }
+
+
+
+
+  .logoMob{
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      z-index: 1000;
+  }
+  .logo-mob{
+      position: relative;
+      top: 15px;
+      left: 15px;
+  }
+  .logo-mob img{
+    width: 95px;
+    height: auto;
+  }
+
+  .boxHome {
+    padding: 0;
+    margin: 0;
+    background: 
+      linear-gradient(
+        90deg,
+      rgba(0, 0, 0, 0.671) 0%,
+      rgba(98,106,107,0) 
+        100%),
+      url(../img/imgHome-mob.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .boxHome .row {
+    width: 100%;
+    height: auto;
+}
+
+  .bxHome-pos1 {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    position: relative;
+    top: 36vh;
+    left: 16%;
+}
+
+
+  .bxHome-pos2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    position: relative;
+    top: 38vh;
+    left: 7%;
+    height: 65%;
+    z-index: 0;
+  }
+  .carrImgHome {
+    width: 161px;
+}
+
+
+.bxLBook-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: 32%;
+}
+.bxLBook-1 img {
+  height: auto;
+  width: 50%;
+}
+.bxLBook-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 3%;
+  position: relative;
+  bottom: 18%;
+  right: 18%;
+}
+
+.bxLBook-2 .row:nth-child(1){
+  width: 100%;
+  height: auto;
+  position: relative;
+  bottom: 16%;
+  left: 57%;
+}
+.bxLBook-2 .row:nth-child(2){
+  width: 75%;
+  height: auto;
+  position: relative;
+  bottom: 28px;
+  left: 75%;
+}
+.bxLBook-2 .row:nth-child(2) img {
+  width: 95%;
+  height: auto;
+  margin-top: 20%;
+}
+.bxLBook-2 .row:nth-child(2) div {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+
+
+
+.boxSobre {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 5%;
+}
+.boxSobre .row:nth-child(1) {
+  width: unset;
+  height: unset;
+  margin-right: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+  top: 16%;
+}
+
+.bxSobreDiv:nth-child(2){
+  padding-right: 0;
+}
+
+.bxSobreDiv img{
+  width: 107%;
+  height: auto;
+  position: relative;
+  bottom: 113px;
+  right: 2px;
+  z-index: 0;
+}
+
+.bxSobre-2 div:first-child {
+  margin-bottom: 6%;
+  z-index: 1;
+}
+
+.img-rowVenda1{
+
+}
+
+
+.img-rowVenda2{
+  position: relative;
+  bottom: 25%;
+}
+
+.boxVenda {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.boxVenda .row img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0%;
+}
+
+.bxVdaTxt1 h1{
+  position: relative;
+  top: 289px;
+  z-index: 1;
+  font-size: 49px;
+}
+.bxVdaTxt1 h4{
+  position: relative;
+  top: 283px;
+  z-index: 1;
+
+}
+.bxVdaTxt1 h3{
+  position: relative;
+  top: 304px;
+  z-index: 1;
+
+}
+.bxVdaTxt2 h1{
+  position: relative;
+  top: 177px;
+  z-index: 1;
+  font-size: 49px;
+}
+.bxVdaTxt2 h4{
+  position: relative;
+  top: 168px;
+  z-index: 1;
+
+}
+.bxVdaTxt2 h3{
+  position: relative;
+  top: 190px;
+  z-index: 1;
+
+}
+
+
+
+
+
+
+.svgIconContato {
+  width: 19px;
+  height: auto;
+}
+.txt-p-cnto {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+
+
+
+
+
+
+.boxColecao {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.bxColecao-2 .row:nth-child(1) div:first-child {
+  margin-bottom: 11%;
+  margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bxColecao-2 .row:nth-child(2) div{
+  margin-bottom: 7%;
+}
+
+.btnColecao:nth-child(1){
+
+}
+.btnColecao {
+  width: 100%;
+  height: 100%;
+}
+
+.btn {
+    border-radius: 3px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 160%;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+}
+
+.flexbin > * {
+  height: 145px!important;
+}
+
+#imgMenu1{
+  margin-top: 4%;
+  padding-left: 10%;
+}
+#imgMenu1 img{
+  width: 25%;
+  height: auto;
+}
+.gridColecao{
+  margin-top: 24%;
+}
+
+
+
+
+
+
+.boxSobreDef-1 {
+  display: flex;
+  /* flex-direction: initial;
+  /* justify-content: center;
+  padding-top: 70px;
+}
+.boxSobreDef-1 img {
+  width: 130%;
+  height: auto;
+  position: relative;
+  right: 46px;
+  top: 38px;
+  z-index: -1;
+}
+
+.bxDivSobre-1 .row:nth-child(2){
+  margin-top: 90px;
+}
+
+ol, ul {
+  padding-left: 1rem;
+}
+
+
+
+
+
+.boxContato {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 5%;
+}
+
+
+#corpo-forms .txt-h4-sLeft {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 130%;
+  letter-spacing: 0.38em;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-left: 2%;
+  margin-bottom: 0;
+}
+
+#corpo-forms .txt-h1 {
+  font-family: RobotoThinItalic;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 47px;
+  line-height: 80%;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+
+#corpo-forms  .txt-h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 9px;
+  line-height: 130%;
+  letter-spacing: 0.38em;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-left: 18px;
+  margin-bottom: 0;
+}
+
+#corpo-forms .cxForm p{
+  text-align: center;
+}
+#corpo-forms .txt-p-cntoForm {
+  width: 100%; 
+  height: auto;
+}
+.txt-p-cntoForm {
+  text-align: center;
+  width: 100%; 
+  height: auto;
+}
+#corpo-forms .txt-h5 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 200%;
+  text-align: center;
+}
+
+.txt-h1 {
+  font-family: RobotoThinItalic;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 67px;
+  line-height: 80%;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 0;
+  max-inline-size: min-content;
+}
+.txt-h1-sbr {
+  font-family: RobotoThinItalic;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 69px;
+  line-height: 80%;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 0;
+  padding-left: 34px;
+  z-index: 1;
+
+}
+.txt-h1-contMob {
+  font-family: RobotoThinItalic;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 67px;
+  line-height: 80%;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+.txt-h1-home {
+  font-family: RobotoThinItalic;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 112px;
+  line-height: 80%;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+
+.txt-h3-home {
+  cursor: pointer;
+  font-family: RobotoItalic;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 0px;
+  padding-right: 6%;
+  position: relative;
+  top: 171%;
+  z-index: 1;
+}
+.txt-h3-b {
+  cursor: pointer;
+  font-family: RobotoItalic;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: left;
+  text-decoration: none;
+  margin-bottom: 0px;
+  padding-right: 11%;
+  position: relative;
+  top: -10%;
+  left: 23%;
+}
+.txt-h4{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 9px;
+  line-height: 130%;
+  letter-spacing: 0.38em;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-left: 18px;
+  margin-bottom: 0;
+}
+.txt-h4-sbr2{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 9px;
+  line-height: 130%;
+  letter-spacing: 0.38em;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-left: 18px;
+  margin-bottom: 0;
+}
+.txt-h4-sbr2-mob {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 9px;
+  line-height: 130%;
+  letter-spacing: 0.38em;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-left: 46px;
+  margin-bottom: 0;
+}
+
+.txt-h4-sbr {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 9px;
+  line-height: 130%;
+  letter-spacing: 0.38em;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-left: 3.5%;
+  margin-bottom: 1%;
+}
+
+.txt-h4-r {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 9px;
+  line-height: 130%;
+  letter-spacing: 0.38em;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-top: 1%;
+  padding-left: 25%;
+  margin-bottom: 0;
+}
+
+.txt-h1-vendaMob {
+  font-family: RobotoThinItalic;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 60px;
+  line-height: 80%;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+.txt-h3-Mob {
+  cursor: pointer;
+  font-family: RobotoItalic;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 0px;
+  padding-right: 0;
+}
+
+.txt-h4-vendaMob {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 130%;
+  letter-spacing: 0.38em;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-left: 2%;
+  margin-bottom: 0;
+}
+.txtH4mov-left {
+  position: relative;
+  right: 95px;
+}
+.txtH4mov-right {
+  position: relative;
+  left: 89px;
+}
+.txt-h4-right {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 130%;
+  letter-spacing: 0.38em;
+  text-align: right;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-top: 1%;
+  margin-bottom: 0;
+}
+
+.boxContato .txt-h4{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 130%;
+  letter-spacing: 0.38em;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-left: 2%;
+  margin-bottom: 0;
+  margin-top: 4%;
+}
+.bxContato .txt-h4{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 130%;
+  letter-spacing: 0.38em;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-left: 2%;
+  margin-bottom: 0;
+  margin-top: 4%;
+}
+
+.txt-p-col{
+  text-align: center;
+  margin-bottom: 8%;
+}
+
+
+
+
+
+.whatsapp-link {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 26px;
+  right: 22px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+  transform: scale(0.8);
+}
+
+
+.ctrlNext {
+  color: #ffffff;
+  position: relative;
+  top: 0.9vh;
+  left: 28px;
+  width: 5%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.ctrlPrev {
+  color: #ffffff;
+  position: relative;
+  top: 33.3vh;
+  top: 246px;
+  left: 1%;
+  width: 5%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.txt-h4-cont1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 130%;
+  letter-spacing: 0.38em;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-left: 12px;
+  margin-bottom: 0;
+}
+
+.txt-h4-cont2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 130%;
+  letter-spacing: 0.38em;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-left: 12px;
+  margin-bottom: 0;
+}
+
+
+}
+ 
